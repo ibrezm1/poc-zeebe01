@@ -4,6 +4,6 @@ test.message=test1
 
 zeebe.client.cloud.region=syd-1
 zeebe.client.cloud.clusterId=7ae55825-xxxx-xxxx-8fea-34a51b1acbfa
-zeebe.client.cloud.clientId=3B6vJ2Jo0FdhHNz5MMOfF-~xxxxxx.A
-zeebe.client.cloud.clientSecret=-F-yVr2bRns1OOqH7naeEON3p-xxxxx.I~buw4tic_HSN1uBQ5s.1_0eWDj
+zeebe.client.cloud.clientId=3B6vJ2Jo0xxxxxxx-~xxxxxx.A
+zeebe.client.cloud.clientSecret=-F-yVr2bRns1OOqHxxxxxxxx-xxxxx.I~buw4tic_HSN1uBQ5s.1_0eWDj
 
