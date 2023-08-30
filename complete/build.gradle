@@ -8,12 +8,20 @@ group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
+
 repositories {
 	mavenCentral()
 }
 
 dependencies {
+
+	// https://mvnrepository.com/artifact/com.google.auth/google-auth-library-oauth2-http
+    implementation group: 'com.google.auth', name: 'google-auth-library-oauth2-http', version: '1.19.0'
+
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation group: 'io.camunda', name: 'spring-zeebe-starter', version: '8.2.4'
+    implementation 'com.google.cloud:libraries-bom:26.18.0' 
+    implementation group: 'com.google.apis', name: 'google-api-services-healthcare', version: 'v1-rev20230510-2.0.0'
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 

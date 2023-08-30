@@ -1,0 +1,31 @@
+# Maven target directory
+target/
+
+# IDE files
+.idea/
+*.iml
+
+# Compiled class file
+*.class
+*.properties
+*.json
+
+# Log files
+log/
+logs/
+
+# Package files
+*.jar
+*.war
+
+# Properties files
+application.properties
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Gradle files
+.gradle/
+build/
